@@ -1,0 +1,78 @@
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 0%);  
+    font-family: 'Overpass', sans-serif;
+}
+footer {
+    text-align: center;
+    bottom: 0;
+    background-color: hsl(216, 12%, 8%);
+    position: absolute;
+    width: 99%;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+}
+a{
+    color: hsl(217, 12%, 63%);
+}
+.card {
+    background-image: linear-gradient(  hsl(213, 19%, 18%), hsl(216, 12%, 8%) );
+    width: 370px;
+    height: 380px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+.star {
+    padding: 10px;
+    background-color: hsl(210, 16%, 20%);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    margin-left: 30px;
+}
+p {
+    font-size: 14px;
+    margin-left: 30px;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 20px;
+}
+.number, .number1, .number5 {
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    background-color: hsl(210, 16%, 20%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    margin-right: 10px;
+    transition: background 0.5s;
+}
+.number1 {
+    margin-left: 30px;
+}
+.sub {
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 300px;
+    height: 46px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 30px;
+    transition: color 0.5s;
+    transition: background 0.5s;
+}
+.sub:hover{
+    color: hsl(25, 97%, 53%);
+    background-color:  white;
+}
+.number:hover , .number1:hover ,.number5:hover {
+    background-color: hsl(216, 12%, 54%);
+}
